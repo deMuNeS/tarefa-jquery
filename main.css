@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {    
+    display: flex;
+    justify-content: center;
+    background-color: #0000004d;
+}
+
+.container {
+    padding-top: 192px;
+    text-align: center;
+    max-width: 1280pxpx;
+    margin-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+h1 {
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+form {
+    margin-bottom: 24px;
+}
+
+form input, button {    
+    padding: 8px 16px;
+    border-radius: 32px;
+    font-size: 16px;
+}
+
+form input {
+    color: #000000;
+    border: 1px solid #006fff;
+    background-color: #006eff34;
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid #006fff;
+}
+
+::placeholder {
+    text-align: center;
+    color: white;
+}
+
+form button {
+    border: 2px solid #004fb6;
+    background-color: #006fff;
+    color: #fff;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+form button:hover {
+    background-color:  #63a7ff;
+}
+
+hr {
+    margin-top: 32px;
+    margin-bottom: 16px; 
+    border: 1px solid #006fff;
+}
+
+h2 {
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 16px;
+    display: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+li div{
+    padding: 10px;
+    background-color: #00000067;
+    border: 1px solid #006fff;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+li div a{
+    text-decoration: none;
+    color: #0000007e;
+}
+
+.novaTarefa{
+    display: none;
+}
