@@ -4,7 +4,7 @@ $('form').on('submit', function(evento) {
     const novaLinhaLista = $(`<li class="novaTarefa"></li>`);
     const botaoTarefa = $(`<a>${novaTarefa}</a>`).appendTo($('<div></div>').appendTo(novaLinhaLista));
     novaLinhaLista.on('click', function() {
-    $(this).find('a').toggleClass('tarefaRealizada');
+    $(this).find('a').toggleClass('lineThrough');
     });
     $(novaLinhaLista).appendTo('ul');
     $('#tarefas-titulo').fadeIn(200, function() {
