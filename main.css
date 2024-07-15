@@ -99,3 +99,8 @@ li div a{
 .novaTarefa{
     display: none;
 }
+
+.lineThrough{
+    color: red;
+    text-decoration: line-through;
+}
